@@ -1,5 +1,7 @@
 import { MOCK_ORDERS, Order, MOCK_USER, UserProfile } from '@/lib/mock/data';
 
+export type { Order };
+
 // Persistent in-memory / local storage helper for interactive orders
 let currentOrders = [...MOCK_ORDERS];
 let currentUser = { ...MOCK_USER };
